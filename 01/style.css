@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "MV";
+    src: url('./67252ae220d4f66979adc172_Melodrama-Variable.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    font-family: "MV";
+}
+
+.page1{
+    width: 100%;
+    height: 100vh;
+}
+
+.page2{
+    width: 100%;
+    height: 100vh;
+}
+
+main{
+    width: 100%;
+}
+
+.page2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page2 h1{
+    font-size: 12vw;
+    color: #FBF0DA;
+    opacity: 1;
+
+}
+
+h1:nth-child(2){
+    font-size: 15vw;
+}
+
